@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>SVG Masking Demo</title>
+	<meta charset="utf-8" />
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+	<div class="img-mask" data-id="stadium">
+		<img
+            class="img-mask__img"
+            src=""
+            srcset="img/stadium--small.jpg 500w,
+                    img/stadium--medium.jpg 1000w,
+                    img/stadium--large.jpg 2000w"
+            data-mask="img/stadium-mask.png"
+            data-delimiter="--"
+            alt="A stadium."
+        >
+	</div>
+
+	<script src="scripts.js"></script>
+</body>
+</html>
